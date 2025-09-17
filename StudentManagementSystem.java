@@ -11,7 +11,7 @@ public class StudentManagementSystem {
      * 构造方法，初始化学生列表
      */
     public StudentManagementSystem() {
-        students = new ArrayList<>();
+        students = new ArrayList<>(); 
     }
 
     /**
