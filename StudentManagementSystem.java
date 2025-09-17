@@ -22,7 +22,7 @@ public class StudentManagementSystem {
     public boolean addStudent(Student student) {
         // 检查学生ID是否已存在
         for (Student s : students) {
-            if (s.getId().equals(student.getId())) {
+            if (s.getId().equals(student.getId())) { 
                 System.out.println("添加失败：学生ID " + student.getId() + " 已存在");
                 return false;
             }
