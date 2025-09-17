@@ -19,7 +19,7 @@ public class StudentManagementSystem {
      * @param student 要添加的学生对象
      * @return 添加是否成功
      */
-    public boolean addStudent(Student student) {
+    public boolean add_Student(Student student) {
         // 检查学生ID是否已存在
         for (Student s : students) {
             if (s.getId().equals(student.getId())) {
